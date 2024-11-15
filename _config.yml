@@ -1,0 +1,8 @@
+theme: jekyll-theme-midnight
+
+site_title: Documentation utilisateur de Slicer pour annotation
+
+markdown: kramdown
+
+sidebars:
+- general-sidebar

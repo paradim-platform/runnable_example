@@ -28,6 +28,7 @@ where the second corresponds to the path of the directory where the results in D
 and where the third is the SeriesInstanceUID of the DICOM input that triggered the run 
 (Note that you can ignore this third argument in your docker image).
 Input data will be in subdirectories, so your code should be able to parse data recursively.
+`dicom-in` and `dicom-out` are shown as an example.
 
 Also, the Docker image must contain every thing, and your code should be able to run as stand alone without Internet.
 
@@ -88,10 +89,10 @@ Note : Your token will be able to push to a specific image name.
 
 ### 2. Register the uploaded Docker image in PARADIM
 At this moment, only the PARADIM staff can do this. 
-Leave us a message and we will happily register your image in PARADIM  [paradim@ulaval.ca,](mailto:paradim@ulaval.ca) :)
+Leave us a message and we will happily register your image in PARADIM  [paradim@ulaval.ca](mailto:paradim@ulaval.ca) :)
 
-## Launching your Docker image
-Once your algorithm is uploaded to PARADIM, it should be accessible here https://launcher.paradim.science/.
+## Running your Docker image
+Once your algorithm is uploaded to PARADIM, it should be accessible [here](https://job-manager.paradim.science).
 Select the desired algorithm, album/studies/series and submit your runs!
 Note that you need to be on the Université Laval VPN to have access to the launcher.
 

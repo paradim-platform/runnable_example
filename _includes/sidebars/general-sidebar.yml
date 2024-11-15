@@ -1,0 +1,7 @@
+title: Documentation utilisateur de Slicer pour annotation
+url: index.html
+children:
+
+  - title: Menu
+    url: https://ylemarechal.github.io/synergiqc-slicer-utilisation/
+    output: web, pdf
